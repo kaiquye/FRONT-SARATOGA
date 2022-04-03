@@ -1,0 +1,63 @@
+.filias-main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.main-filias{
+    background-image: url('./R.jpg');
+    background-position: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.filias{
+    width: 100%;
+    height: 220px;
+    background-color: #014521de;
+}
+.titulo-nossasfilias{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;   
+}
+.titulo-nossasfilias h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nome-estados label{
+    color: rgb(250, 250, 250);
+    border: none;
+    border-bottom: 2px solid orangered;
+    cursor: pointer;
+}
+.filial{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns:  200px 200px 200px 200px  ;
+    grid-template-rows: 150px 150px 150px;
+    justify-content: center;
+}
+.filial-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('./R\ \(1\).jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.filial-info label{
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    padding: 10px;
+}

@@ -1,4 +1,5 @@
 import { NavBar } from "../componets/bannerHome"
+import { Filias } from "../componets/Filiais"
 import { MensagemGrupo } from "../componets/mensagemGrupo"
 import { Services } from "../componets/NossosServicos"
 
@@ -16,7 +17,7 @@ export function Home (){
                 <Services/>
             </section>
             <section>
-                // filosofia
+                <Filias/>
             </section>
             <section>
                 // filias
